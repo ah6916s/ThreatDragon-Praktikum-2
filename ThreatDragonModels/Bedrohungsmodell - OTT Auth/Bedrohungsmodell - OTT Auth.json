@@ -47,7 +47,7 @@
           {
             "position": {
               "x": 12,
-              "y": 53
+              "y": 70
             },
             "size": {
               "width": 160,
@@ -152,7 +152,7 @@
             "data": {
               "name": "User",
               "description": "",
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2205,20 +2205,20 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "report wÃ¶chentlich wöchentlich",
+              "name": "report wÃ¶chentlich wöchentlich (verschlüsselt)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
             },
             "labels": [
-              "report wÃ¶chentlich wöchentlich"
+              "report wÃ¶chentlich wöchentlich (verschlüsselt)"
             ],
             "id": "54442d36-680f-4233-9c70-50d6cecb563e",
             "source": {
@@ -2228,6 +2228,30 @@
             "target": {
               "cell": "81146224-8bd3-4876-9d08-ed743107b0d6",
               "port": "870b20ee-a060-45f7-9710-52fff1e6b0c6"
+            },
+            "vertices": [
+              {
+                "x": 840,
+                "y": 240
+              },
+              {
+                "x": 860,
+                "y": 230
+              },
+              {
+                "x": 880,
+                "y": 240
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ],
