@@ -11,7 +11,7 @@
         "$$hashKey": "object:14"
       },
       {
-        "name": "Ahmad Hussein",
+        "name": "DevSecOps Kursteilnehmer",
         "$$hashKey": "object:16"
       }
     ],
@@ -305,7 +305,7 @@
           {
             "position": {
               "x": 488,
-              "y": -11.999999999999922
+              "y": -7
             },
             "size": {
               "width": 130,
@@ -1335,7 +1335,13 @@
             "target": {
               "cell": "a7ce3830-1617-4a99-9d69-81ded3cb2e0e",
               "port": "30404dff-0db7-4fdb-9cfd-5ba2ba2f6fb7"
-            }
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 220
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1449,8 +1455,63 @@
             },
             "vertices": [
               {
+                "x": 620,
+                "y": 150
+              },
+              {
                 "x": 650,
                 "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "OTT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "OTT"
+            ],
+            "id": "8482a0e8-5354-41e6-b7d8-23cefaed6e8f",
+            "source": {
+              "x": 470,
+              "y": 210
+            },
+            "target": {
+              "cell": "a1d5bbe6-465f-43bb-bd96-7ce687db37aa",
+              "port": "7c23808a-bea2-487d-a760-5b1aee4520ad"
+            },
+            "vertices": [
+              {
+                "x": 390,
+                "y": 190
               }
             ]
           },
@@ -1596,13 +1657,6 @@
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2151,7 +2205,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "report wÃ¶chentlich",
+              "name": "report wÃ¶chentlich wöchentlich",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2164,7 +2218,7 @@
               "threats": []
             },
             "labels": [
-              "report wÃ¶chentlich"
+              "report wÃ¶chentlich wöchentlich"
             ],
             "id": "54442d36-680f-4233-9c70-50d6cecb563e",
             "source": {
